@@ -7,7 +7,6 @@
 
 :root {
     --hover-color: #1c9bd7;
-    --title-color: #231F20;
     --btn-color: #67AEC6;
     --font: font-family: 'Poppins', sans-serif;
     --fondo1: #6EC1E4;
@@ -22,24 +21,6 @@
     --text-parrafo: #231F20;
     --link: #ffffff;
     --bg-card-header: rgb(248, 248, 248);
-    --validado: rgb(78, 223, 83);
-    --warning-color: #c7ba02;
-    --excel-btn: #198754;
-    --pdf-btn: #a9291d;
-    --procesado: rgb(100, 213, 104);
-    --sinProcesar: #f5ea53;
-    --danger-color: #a91327;
-    --modify-color: #13b32b;
-}
-
-
-.bt-container {
-    font-family: "Space Mono", monospace;
-    max-height: 68px;
-    overflow: hidden;
-    margin: 0;
-    color: #fff;
-    background-color: #111420;
 }
 
 ul#bt {
@@ -294,40 +275,6 @@ h1 {
     letter-spacing: 0px;
 }
 
-.lineaTitulo1 {
-    width: 10% !important;
-    border: 3px solid !important;
-    border-radius: 5px !important;
-    border-color: var(--fondo1) !important;
-    opacity: 1 !important;
-}
-
-.lineaTitulo2 {
-    width: 10% !important;
-    border: 3px solid !important;
-    border-radius: 5px !important;
-    border-color: var(--text) !important;
-    opacity: 1 !important;
-}
-
-.lineaTitulo3 {
-    width: 20% !important;
-    border: 1px solid !important;
-    border-radius: 5px !important;
-    border-color: var(--text) !important;
-    opacity: 1 !important;
-}
-
-a {
-    font-family: var(--font-body) !important;
-    color: var(--text) !important;
-    text-decoration: none !important;
-}
-
-a:hover {
-    color: #1c9bd7;
-}
-
 /* NAVBAR */
 
 .btnMenu{
@@ -358,131 +305,6 @@ a:hover {
 
 .textoNav:hover {
     color: #ffffff;
-}
-
-.btnAccesoLoginMobile {
-    transition: ease 0.5s;
-    width: 100% !important;
-    height: 45px !important;
-    background-color: var(--title-color) !important;
-    border-color: transparent;
-    color: #e7f0fd !important;
-    padding: 15px !important;
-    font-size: 15px !important;
-}
-
-.btnAccesoLoginMobile:hover {
-    background-color: var(--parrafo-color) !important;
-    color: var(--text) !important;
-    font-weight: bold;
-}
-
-/* ADMINISTRADOR */
-
-.card-login {
-    background: var(--login) !important;
-    width: 23rem !important;
-    margin-top: 100px;
-    margin-bottom: 30px;
-    margin-left: 0px !important;
-    margin-right: 0px !important;
-    border-radius: 40px !important;
-}
-
-.boton-Login {
-    font-size: 18px !important;
-    font-weight: 500 !important;
-    background-color: var(--btn-color) !important;
-    color: #ffff !important;
-}
-
-.boton-Register {
-    font-size: 18px !important;
-    font-weight: 500 !important;
-    background-color: #ffff !important;
-    color: var(--btn-color) !important;
-}
-
-#register {
-    border: 2px solid;
-    background: none !important;
-    color: var(--boton-color);
-}
-
-.backgroundLogin {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(-225deg, #5D9FFF 0%, #B8DCFF 48%, #6BBBFF 100%);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-#logoAdmin {
-    border: transparent;
-    width: 60%;
-    padding: 30px !important;
-}
-
-.containerLogin {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-}
-
-.btnAdmin {
-    color: #ffff !important;
-    border: 1px solid;
-    font-weight: normal;
-    background: var(--fondo1) !important;
-    transition: ease 4s all;
-}
-
-.btnOnline {
-    padding-right: 10px !important;
-    padding-left: 10px !important;
-    background-color: var(--link);
-    border: solid 1px var(--link) !important;
-    border-radius: 25px !important;
-}
-
-.btnAdmin:hover {
-    color: var(--fondo1) !important;
-    border: 2px solid !important;
-    font-weight: normal !important;
-    background: #ffff !important;
-    font-weight: bold !important;
-}
-
-.btnExcel {
-    color: #ffff !important;
-    background-color: var(--excel-btn) !important;
-}
-
-.btn-cancelar {
-    background: var(--danger-color) !important;
-    color: #e7f0fd !important;
-}
-
-.btn-modificar {
-    background: var(--modify-color) !important;
-    color: #e7f0fd !important;
-}
-
-.fa-solid {
-    font-size: x-large !important;
-    color: var(--boton-color) !important;
-    margin: 10px !important;
-}
-
-.tituloAdmin {
-    color: var(--fondo1);
-    font-size: 20px !important;
-    font-weight: bold;
 }
 
 /*-----------------------------*/
@@ -554,30 +376,6 @@ a:hover {
 
 .navbar .nav-item:not(:last-child) {
     margin-right: 22px;
-}
-
-/* BOTONES */
-
-#flecha {
-    color: var(--fondo1) !important;
-    font-size: 40px !important;
-}
-
-.btnAccesoLogin {
-    transition: ease 0.5s;
-    width: 100% !important;
-    height: 25px !important;
-    background-color: var(--title-color) !important;
-    border-color: transparent;
-    color: #e7f0fd !important;
-    padding: 5px !important;
-    font-size: 13px !important;
-}
-
-.btnAccesoLogin:hover {
-    background-color: var(--parrafo-color) !important;
-    color: var(--text) !important;
-    font-weight: bold;
 }
 
 /* HOME */
@@ -1078,10 +876,33 @@ a:hover {
     line-height: normal !important;
 }
 
+.portadaSection2 {
+    background-image: url('../img/imgPortadas/IMG-HOME-2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 768px !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.portadaSection3 {
+    background-image: url('../img/imgPortadas/IMG-HOME-3.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 768px !important;
+    display: inline-block; /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
 /* SECTION 3 */
 
 #section3 {
     background-color: var(--color1) !important;
+    margin: 0px !important;
 }
 
 .node { 
@@ -1100,6 +921,42 @@ a:hover {
     z-index: 1; /* Asegura que los nodos estén por encima de las líneas */
 }
 
+.node:hover {
+    background-color: #24449F; /* Cambiar color al hacer hover */
+}
+
+.icon-connection12{
+    width: 80% !important; /* Ajusta el tamaño de la imagen */
+    height: auto !important;
+    margin-bottom: 0px; /* Espacio entre la imagen y el nodo */
+    margin-left: 50% !important;
+    margin-top: 40% !important;
+}
+
+.icon-connection23{
+    width: 80% !important; /* Ajusta el tamaño de la imagen */
+    height: 165px !important;
+    margin-bottom: 0px; /* Espacio entre la imagen y el nodo */
+    margin-left: 50% !important;
+    margin-bottom: 40% !important;
+}
+
+.icon-connection34{
+    width: 80% !important; /* Ajusta el tamaño de la imagen */
+    height: 165px !important;
+    margin-bottom: 0px; /* Espacio entre la imagen y el nodo */
+    margin-left: 35% !important;
+    margin-top: 40% !important;
+}
+
+.icon-connection36{
+    width: 80% !important; /* Ajusta el tamaño de la imagen */
+    height: 165px !important;
+    margin-bottom: 0px; /* Espacio entre la imagen y el nodo */
+    margin-left: 35% !important;
+    margin-bottom: 40% !important;
+}
+
 .groupNode {
     background-color: var(--color3) !important; /* Color de fondo azul de los nodos */
     border-radius: 20px;
@@ -1116,15 +973,6 @@ a:hover {
     z-index: 2; /* Asegura que los nodos estén por encima de las líneas */
 }
 
-#lines {
-    z-index: -1 !important;  /* Asegúrate de que las líneas estén detrás de los nodos */
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-}
-.node:hover {
-    background-color: #60a5fa; /* Cambia el color al pasar el mouse sobre el nodo */
-}
 
 .textNode {
     text-align: start !important;
@@ -1158,16 +1006,6 @@ a:hover {
     margin-top: 5% !important;
 }
 
-/* Oculta el panel inicialmente */
-#info-panel {
-    display: none;
-    background-color: #22d3ee;
-    border-radius: 10px;
-    padding: 20px;
-    min-height: 200px;
-    transition: background-color 0.3s ease;
-}
-
 /* Cuando se le pasa el hover a un nodo, se mostrará el info-panel */
 .show-info {
     display: block !important;
@@ -1189,8 +1027,9 @@ a:hover {
     z-index: 2; /* Asegura que las líneas estén detrás de los nodos */
 }
 
-/* Cambia el color del panel de información al hacer hover */
+/* Oculta el panel inicialmente */
 #info-panel {
+    visibility: hidden;
     background-color: #22d3ee;
     border-radius: 10px;
     padding: 20px;
@@ -1198,8 +1037,9 @@ a:hover {
     transition: background-color 0.3s ease;
 }
 
+/* Cuando se activa la clase .show-info, el panel se hace visible */
 #info-panel.show-info {
-    display: block !important;
+    visibility: visible !important;
 }
 
 /* Cambio de color del #info-panel al hacer hover en los nodos */
@@ -1207,172 +1047,100 @@ a:hover {
     background-color: #0DEAB1; /* Color al hacer hover */
 }
 
-
-.portadaSection2 {
-    background-image: url('../img/imgPortadas/IMG-HOME-2.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100% !important;
-    height: 768px !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+#info-panel img {
+    display: block;
+    margin: 0;
+    text-align: start;  /* Asegura que la imagen esté alineada a la izquierda */
 }
 
-.footPrint {
-    background-color: var(--color1) !important;
-}
-
-.footPrintContact {
-    background-color: var(--color6) !important;
-}
-
-.titleOurApproach {
-    color: var(--text-parrafo) !important;
-    text-align: center;
-    font-family: "Nunito Sans" !important;
-    font-size: 35px !important;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 66px;
-}
-
-.titleImpact {
-    color: var(--text-parrafo) !important;
-    text-align: center;
-    font-family: "Nunito Sans" !important;
-    font-size: 50px !important;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 66px;
-}
-
-.titleImpactSection {
-    color: var(--text-parrafo) !important;
-    text-align: center;
-    font-family: "Nunito Sans" !important;
-    font-size: 50px !important;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 66px;
-}
-
-
-.number{
-    padding: 0px !important;
-    margin: 0px !important;
-    margin-bottom: 12% !important;
-    margin-right: 10px !important;
-}
-
-#number2 {
-    width: 50px !important;
-}
-
-.imageSection {
-    margin-bottom: 5% !important;
-}
-
-.sectionImage2 {
-    background-color: var(--section2) !important;
-    padding: 0px !important;
-    margin: 0px !important;
-}
-
-.sectionFirm {
-    background-color: var(--color6) !important;
-    padding: 0px !important;
-    margin: 0px !important;
-}
-
-.sectionApproach {
-    background-color: var(--color6) !important;
-    padding: 0px !important;
-    margin: 0px !important;
-}
-
-.accordion-button{
-    color: var(--text-parrafo) !important;
-    font-family: "Nunito Sans", sans-serif !important;
-    font-size: 17px !important;
+.numberInfoPanel {
+    text-align: start !important;
+    color: var(--color1) !important;
+    font-family: var(--font) !important;
+    font-size: 40px !important;
     font-style: normal !important;
-    font-weight: 500 !important;
-    line-height: 120% !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
 }
 
-.accordion-body {
-    color: var(--Grey, #999) !important;
-    font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px !important;
+.textInfoPanel {
+    text-align: start !important;
+    color: var(--color1) !important;
+    font-family: var(--font) !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+}
+
+.subtextInfoPanel {
+    text-align: start !important;
+    color: var(--color1) !important;
+    font-family: var(--font) !important;
+    font-size: 24px !important;
+    font-style: bold !important;
+    font-weight: 600 !important;
+    line-height: 25px !important;
+}
+
+
+/* SECTION 4 */
+
+
+.menu-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.menu-card img {
+    width: 40px;
+    height: auto;
+}
+
+.menu-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--color1) !important;
+}
+
+.menu-text {
+    color: var(--color1) !important;
+    font-family: "Poppins" sans-serif !important;
+    font-size: 16px !important;
     font-style: normal !important;
     font-weight: 400 !important;
-    line-height: normal !important;
+    line-height: 150% !important;
+    list-style-type: disc !important; /* Asegura que los puntos sean visibles */
+    padding-left: 20px !important;    /* Añade un poco de espacio antes de los puntos */
 }
 
-.portadaApproach{
-    background-color: var(--color7) !important;
+.menu-text li {
+    margin-bottom: 10px !important /* Espacio entre los elementos de la lista */
 }
 
-.portadaOurTeam{
-    background-color: var(--color7) !important;
+.menu-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
-
-/* SECTION BUSINESSES */
-
-#businesses {
-    padding-top: 9% !important;
+.plus-icon {
+    font-size: 24px;
+    color: var(--color1) !important;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    display: inline-block; 
 }
 
-.portadaBusinesses2{
-    background-image: url('../img/imgPortadas/LXG-Hero-2.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+/* .menu-container .collapse .card {
+    border: none !important;
+    box-shadow: none !important;
+} */
 
-.portadaCapital {
-    background-image: url('../img/imgPortadas/capital1T.png');
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-top: 10% !important;
-    padding-bottom: 10% !important;
-}
 
-.iconCapital {
-    padding-right: 15px !important;
-}
-
-.ourPartners {
-    background-color: var(--color1) !important;
-    padding-top: 10% !important;
-    padding-bottom: 10% !important;
-}
-
-.portadaOffice {
-    background-image: url('../img/imgPortadas/office2T.png');
-    background-position: left center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-top: 10% !important;
-    padding-bottom: 10% !important;
-}
-
-.sectionOurFirm2 {
-    background-color: var(--color7) !important;
-    padding-top: 10% !important;
-    padding-bottom: 10% !important;
-}
-
-.portadaPeople{
-    background-image: url('../img/imgPortadas/portadaPeople.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20% !important;
-    padding-bottom: 20% !important;
-}
 
 /* SECTION PEOPLE */
 
@@ -1403,151 +1171,6 @@ a:hover {
     background-size: cover;
     padding-top: 20% !important;
     padding-bottom: 20% !important;
-}
-
-/* SECTION NEWS */
-
-
-/* .tagsMenu{
-    padding-top: 5% !important;
-    padding-bottom: 5% !important;
-} */
-
-.portadaNews3 {
-    background-color: var(--color2) !important;
-    padding-bottom: 9% !important;
-}
-
-.titleNews {
-    color: var(--title-color) !important;
-    text-align: center;
-    font-family: "Space Mono";
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 66px;
-    text-decoration-line: underline;
-}
-
-.imageNews{
-    width: 100% !important;
-}
-
-.bg-custom1{
-    background-color: var(--section2) !important;
-}
-
-.bg-custom2{
-    background-color: var(--color2) !important;
-}
-
-.share-menu {
-    border-top: 1px solid var(--title-color) !important;
-    border-bottom: 1px solid var(--title-color) !important;
-    padding: 5px 0;
-}
-
-.iconShare {
-    border-radius: 64px !important;
-    background-color: var(--title-color) !important;
-    margin: 3px !important;
-    padding: 5px !important;
-}
-
-.card {
-    width: 100% !important;
-    margin-left: 0px !important;
-    margin-top: 5% !important;
-    border: none !important;
-    background-color: transparent !important;
-}
-
-.card-body {
-    padding: 0px !important;
-    margin: 0px !important;
-}
-
-.card-title {
-    margin-top: 10px !important;
-    color: var(--title-color) !important;
-    font-family: "Nunito Sans", sans-serif !important;
-    font-size: 25px !important;
-    font-style: normal !important;
-    font-weight: 500 !important;
-    line-height: 110% !important;
-}
-
-.card-text {
-    margin-top: 20px !important;
-    color: var(--text-parrafo) !important;
-    font-family: "Nunito Sans", sans-serif !important;
-    font-size: 15px !important;
-    font-style: normal !important;
-    font-weight: 500 !important;
-    line-height: 110% !important;
-}
-
-.card-text-date {
-    margin-top: 10px !important;
-    color: var(--text-parrafo) !important;
-    font-family: "Nunito Sans", sans-serif !important;
-    font-size: 20px !important;
-    font-style: normal !important;
-    font-weight: 700 !important;
-    line-height: 110% !important;
-}
-
-.sectionImage3 {
-    background-color: var(--color1) !important;
-    padding: 0px !important;
-    margin: 0px !important;
-}
-
-.image-container {
-    margin: 0 7% !important;
-}
-
-.swiper-container {
-    width: 100%;
-    height: auto;
-}
-
-.swiper-slide img {
-    width: 100%;
-    height: auto;
-}
-
-.iconCarousel {
-    width: 60% !important; /* Ajusta el tamaño de los íconos */
-    height: 60% !important;
-}
-
-.btn_carousel {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.iconCarousel {
-    width: 70% !important;
-}
-
-#btnPrev,
-#btnNext {
-    border: none !important;
-    background-color: transparent !important;
-    background-image: url('../img/Buttons/buttonForward.svg') !important; /* Imagen por defecto */
-    background-size: contain; /* Ajusta el tamaño de la imagen */
-    transition: background-image 0.3s ease; /* Agrega una transición suave */
-}
-
-#btnPrev:hover {
-    background-image: url('../img/Buttons/hoverButtonPrev.png')
-    ; /* Cambia la imagen al pasar el mouse */
-}
-
-#btnNext:hover {
-    background-image: url('../img/Buttons/hoverButtonNext.png'); /* Cambia la imagen al pasar el mouse */
 }
 
 /* FOOTER */
