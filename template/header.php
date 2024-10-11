@@ -13,16 +13,16 @@
         <div class="offcanvas-body d-block d-lg-none text-start">
             <ul class="container col-sm-12 navbar-nav me-auto ps-3">
                 <li class="pt-4 pe-4">
-                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#seccion4">Serviços</a></button>
+                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#section4">Serviços</a></button>
                 </li>
                 <li class="pt-4 pe-4">
-                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#queSomos">Quem somos</a></button>
+                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#section6">Quem somos</a></button>
                 </li>
                 <li class="pt-4 pe-4">
-                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#clientes">Clientes</a></button>
+                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#section7">Clientes</a></button>
                 </li>
                 <li class="pt-4 pe-4">
-                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#equipo">Equipe</a></button>
+                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#section7">Equipe</a></button>
                 </li>
                 <li class="pt-4 pe-4">
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#contacto">Trabalhe Conosco</a></button>
@@ -39,13 +39,13 @@
                 <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#section4">Serviços</a></button>
             </li>
             <li class="pt-4 pe-3">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#queSomos">Quem somos</a></button>
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#section6">Quem somos</a></button>
             </li>
             <li class="pt-4 pe-3">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#clientes">Clientes</a></button>
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#section7">Clientes</a></button>
             </li>
             <li class="pt-4 pe-3">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#equipo">Equipe</a></button>
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#section7">Equipe</a></button>
             </li>
             <li class="pt-4 pe-3">
                 <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#contacto">Trabalhe Conosco</a></button>

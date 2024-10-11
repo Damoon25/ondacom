@@ -250,7 +250,121 @@
             </div>
         </div>
         <div class="portadaSection3 m-0"></div>
-        <div id="map" style="width: 100%; height: 825px !important;"></div>
+        <div id="map" style="width: 100%; height: 825px; position: relative;"></div>
+        <img id="corner-image" src="public/img/icons/vector-colores.png" alt="Esquina" class="corner-image d-none d-md-block" />
+        <div id="section6" class="container">
+            <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 order-md-2">
+                        <img data-aos="fade-left" class="imageSection p-md-5 pe-md-0" src="./public/img/imgPortadas/IMG-HOME-4.jpg" alt="Imagen 4">
+                    </div>
+                    <div class="col-sm-12 pe-md-0 col-md-6 order-md-1 align-self-center">
+                        <div class="align-self-start paddingBottom">
+                            <h3 class="subtitle1 fw-bolder mb-2">Quem somos</h3>
+                            <p class="text1">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse varius enim in eros elementum tristique.
+                                Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                                ut commodo diam libero vitae erat.
+                            </p>
+                        </div>
+                        <div class="mt-md-5">
+                            <h4 class="title1 fw-bold text-center text-md-start" style="color: var(--color4) !important;">Visão</h4>
+                            <p class="minText">
+                                Ser reconhecida pela excelência na prestação de serviços junto aos nossos clientes.
+                                Estar presente na contínua expansão da conectividade para atendimento das
+                                crescentes demandas de telecomunicações.
+                            </p>
+                        </div>
+                        <div class="mt-2">
+                            <h4 class="title1 fw-bold text-center text-md-start" style="color: var(--color4) !important;">Missão</h4>
+                            <p class="minText">
+                                Oferecer serviços confiáveis e inovadores,
+                                conectando pessoas e negócios em todo o mundo,
+                                com excelência operacional e compromisso com a satisfação do cliente.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img id="corner-image2" src="public/img/icons/vector-colores2.png" alt="Esquina" class="corner-image2 d-none d-md-block" />
+        <div class="container">
+            <div class="col-sm-12 flex-column flex-md-row paddingBottom">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 order-md-1">
+                        <img data-aos="fade-left" class="imageSection2 p-md-5 ps-md-0" src="./public/img/imgPortadas/IMG-HOME-5.png" alt="Imagen 5">
+                    </div>
+                    <div class="col-sm-12 pe-md-0 col-md-6 order-md-2 align-self-center">
+                        <div class="mt-md-5">
+                            <h4 class="title1 fw-bold text-center text-md-start" style="color: var(--color4) !important;">Valores</h4>
+                            <p class="minText">
+                                <strong>Confiabilidade:</strong><br>
+                                Garantir que os serviços em telecomunicações estejam
+                                sempre disponíveis e sejam consistentes em termos de qualidade e
+                                desempenho. <br><br>
+
+                                <strong>Integridade:</strong><br>
+                                Agir com transparência e honestidade em todas as interações
+                                com clientes, colaboradores e parceiros. <br><br>
+
+                                <strong>Excelência Operacional:</strong><br>
+                                Buscar a eficiência em todas as operações,
+                                desde a infraestrutura até o atendimento ao cliente final. <br><br>
+
+                                <strong>Compromisso com os clientes: </strong><br>
+                                Oferecer um excelente atendimento aos nossos clientes com soluções
+                                personalizadas para suas necessidades e expectativas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container paddingBottom">
+            <div id="section7" class="col-sm-12 justify-content-center text-center mb-5">
+                <h2 class="subtitle1">Clientes</h2>
+            </div>
+            <div class="row col-sm-12 flex-sm-column flex-md-row justify-content-center align-items-center text-center">
+                <div class="col-sm-12 col-md-2">
+                    <img src="./public/img/brands/logo-1.png" alt="logo 1">
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <img src="./public/img/brands/logo-2.jpg" alt="logo 2">
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <img src="./public/img/brands/logo-3.jpg" alt="logo 3">
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <img src="./public/img/brands/logo-4.jpg" alt="logo 4">
+                </div>
+                <div class="col-sm-12 col-md-2">
+                    <img src="./public/img/brands/logo-5.jpg" alt="logo 5">
+                </div>
+            </div>
+        </div>
+        <div class="sectionBack7 paddingTop paddingBotttom">
+            <div class="container py-5">
+                <div class="row text-center align-items-center">
+                    <div class="col-12 col-md-5 justify-content-end">
+                        <h2 class="fw-bold display-4" style="color: var(--color2)!important;">+ 1.800</h2>
+                        <p class="text-info fw-bold">Veículos</p>
+                    </div>
+                    <div class="col-12 col-md-2 d-flex justify-content-center align-items-center">
+                        <hr class="hr-line">
+                    </div>
+                    <div class="col-12 col-md-5 justify-content-start">
+                        <h2 class="fw-bold display-4" style="color: var(--color2)!important;">+ 2.200</h2>
+                        <p class="text-info fw-bold">Colaboradores</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container paddingTop mb-5">
+            <div id="section8" class="col-sm-12 justify-content-center text-center mb-5">
+                <h2 class="subtitle1">Equipe</h2>
+            </div>
+        </div>
     </main>
     <footer>
         <?php include("template/footer.php") ?>

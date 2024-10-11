@@ -23,36 +23,41 @@ document.addEventListener("DOMContentLoaded", function () {
     }).addTo(map);
 
     var locations = [
-        { lat: -22.9068, lng: -43.1729, description: 'Rio de Janeiro' },
-        { lat: -23.5505, lng: -46.6333, description: 'São Paulo' },
-        { lat: -15.7801, lng: -47.9292, description: 'Brasilia' },
-        { lat: -12.9714, lng: -38.5014, description: 'Salvador' },
-        { lat: -19.9167, lng: -43.9345, description: 'Belo Horizonte' },
-        { lat: -8.0476, lng: -34.8770, description: 'Recife' },
-        { lat: -3.7172, lng: -38.5434, description: 'Fortaleza' },
-        { lat: -16.6869, lng: -49.2648, description: 'Goiânia' },
-        { lat: -20.4697, lng: -54.6201, description: 'Campo Grande' },
-        { lat: -25.4295, lng: -49.2713, description: 'Curitiba' },
-        { lat: -29.6842, lng: -53.8069, description: 'Santa Maria' },
-        { lat: -15.6014, lng: -56.0979, description: 'Cuiabá' },
-        { lat: -2.5307, lng: -44.3068, description: 'São Luís' },
-        { lat: -22.2216, lng: -54.8063, description: 'Dourados' },
-        { lat: -10.9472, lng: -37.0731, description: 'Aracaju' },
-        { lat: -10.1847, lng: -48.3337, description: 'Palmas' },
-        { lat: -3.1190, lng: -60.0217, description: 'Manaus' },
-        { lat: -1.4558, lng: -48.4902, description: 'Belém' },
-        { lat: -12.2581, lng: -55.7523, description: 'Sinop' },
-        { lat: -5.7945, lng: -35.2110, description: 'Natal' },
-        { lat: -8.0539, lng: -34.8811, description: 'Olinda' },
-        { lat: -16.7279, lng: -43.8601, description: 'Montes Claros' }
-    ];
+    { lat: -3.1190, lng: -60.0217, description: 'Manaos' },
+    { lat: 0.0349, lng: -51.0694, description: 'Macapá-AP' },
+    { lat: -1.4558, lng: -48.4902, description: 'Belém-PA' },
+    { lat: -2.5307, lng: -44.3068, description: 'São Luiz' },
+    { lat: -13.0325, lng: -56.0977, description: 'Lucas do Rio Verde-MT' },
+    { lat: -10.1847, lng: -48.3337, description: 'Palmas' },
+    { lat: -12.9714, lng: -38.5014, description: 'Bahía' },
+    { lat: -16.4731, lng: -54.6354, description: 'Rondonópolis' },
+    { lat: -26.3044, lng: -48.8487, description: 'Joinville' },
+    { lat: -16.7279, lng: -43.8601, description: 'Montes Claros' },
+    { lat: -15.7801, lng: -47.9292, description: 'Brasília-DF' },
+    { lat: -16.8237, lng: -49.2469, description: 'Aparecida de Goiânia' },
+    { lat: -17.7426, lng: -48.6196, description: 'Caldas Novas-GO' },
+    { lat: -17.7989, lng: -50.9238, description: 'Rio Verde-GO' },
+    { lat: -18.9146, lng: -48.2754, description: 'Uberlândia-MG' },
+    { lat: -19.9167, lng: -43.9345, description: 'Belo Horizonte' },
+    { lat: -20.121, lng: -40.3071, description: 'Serra-ES' },
+    { lat: -23.420999, lng: -51.933055, description: 'Maringá' },
+    { lat: -24.9555, lng: -53.4552, description: 'Cascavel' },
+    { lat: -25.0945, lng: -50.1636, description: 'Ponta Grossa' },
+    { lat: -25.4295, lng: -49.2713, description: 'Curitiba' },
+    { lat: -23.5505, lng: -46.6333, description: 'São Paulo' },
+    { lat: -23.1017, lng: -46.8786, description: 'Cajamar-SP' },
+    { lat: -26.3044, lng: -48.8487, description: 'Joinville-SC' },
+    { lat: -26.9194, lng: -49.0661, description: 'Blumenau' },
+    { lat: -27.5954, lng: -48.548, description: 'São José' },
+    { lat: -30.0346, lng: -51.2177, description: 'Porto Alegre' }
+];
 
-    // Añadir los pines al mapa
-    locations.forEach(function (location) {
-        L.marker([location.lat, location.lng])
-            .addTo(map)
-            .bindPopup(location.description);
-    });
+// Añadir los pines al mapa
+locations.forEach(function(location) {
+    L.marker([location.lat, location.lng])
+        .addTo(map)
+        .bindPopup(location.description);
+});
 
     // Limitar la vista a Brasil
     map.setMaxBounds(bounds);
