@@ -360,17 +360,112 @@
                 </div>
             </div>
         </div>
-        <div class="container paddingTop mb-5">
-            <div id="section8" class="col-sm-12 justify-content-center text-center mb-5">
+        <div class="container paddingTop paddingBottom mb-5">
+            <div id="section8" class="col-sm-12 justify-content-center text-center mb-3">
                 <h2 class="subtitle1">Equipe</h2>
+            </div>
+            <div class="col-sm-12 justify-content-center text-center mb-5">
+                <h4 class="title1" style="color: var(--color1) !important;">Líderes</h4>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="image-container">
+                            <img src="public/img/team/PEOPLE-1.jpg" alt="imagen 1">
+                            <div class="overlay">
+                                <h3>Marcelo Vallada</h3>
+                                <p>Diretor Administrativo Financeiro</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-container">
+                            <img src="public/img/team/PEOPLE-2.jpg" alt="imagen 2">
+                            <div class="overlay">
+                                <h3>Otro Líder</h3>
+                                <p>Cargo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-container">
+                            <img src="public/img/team/PEOPLE-3.jpg" alt="imagen 3">
+                            <div class="overlay">
+                                <h3>Otro Líder</h3>
+                                <p>Cargo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-container">
+                            <img src="public/img/team/PEOPLE-4.jpg" alt="imagen 4">
+                            <div class="overlay">
+                                <h3>Otro Líder</h3>
+                                <p>Cargo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="image-container">
+                            <img src="public/img/team/PEOPLE-5.jpg" alt="imagen 5">
+                            <div class="overlay">
+                                <h3>Otro Líder</h3>
+                                <p>Cargo</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Más imágenes -->
+                </div>
+                <!-- Botones de navegación -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+
+                <!-- Paginación -->
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </main>
     <footer>
         <?php include("template/footer.php") ?>
     </footer>
+    <!-- FW PARA CAROUSEL -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- FW PARA DIAGRAMA -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            loop: true, // Hacer que el carrusel esté en bucle
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            slidesPerView: 3, // Mostrar 3 slides a la vez en pantallas grandes
+            spaceBetween: 30, // Espacio entre los slides
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                // Configuración responsiva para pantallas más pequeñas
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 30,
+                },
+            }
+        });
+    </script>
     <!-- FW PARA EL MAPA -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

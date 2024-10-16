@@ -231,13 +231,14 @@ ul {
     background-color: rgba(103, 174, 198, .9) !important;
 }
 
-.nav-link{
+.nav-link {
     font-family: var(--font) !important;
     color: var(--link) !important;
     font-size: 16px !important;
     font-style: normal !important;
     font-weight: 500 !important;
-    line-height: 24px !important; /* 22.5px */
+    line-height: 24px !important;
+    /* 22.5px */
     text-transform: uppercase;
 }
 
@@ -260,7 +261,7 @@ body {
     border: none;
 }
 
-.navbar-brand{
+.navbar-brand {
     margin-right: 0px !important;
     margin-left: 0px !important;
 }
@@ -277,13 +278,13 @@ h1 {
 
 /* NAVBAR */
 
-.btnMenu{
+.btnMenu {
     background-color: transparent !important;
     border: transparent !important;
     padding-top: 15px !important;
 }
 
-.btnMenu2{
+.btnMenu2 {
     width: 25% !important;
     background-color: transparent !important;
     border: transparent !important;
@@ -426,8 +427,8 @@ h1 {
 .carousel-indicators p {
     position: absolute !important;
     top: -2px !important;
-    left: 50% !important; 
-    transform: translateX(-50%) !important; 
+    left: 50% !important;
+    transform: translateX(-50%) !important;
 }
 
 .textCarousel {
@@ -510,14 +511,14 @@ h1 {
     margin: 0px !important;
 }
 
-.titleSection{
+.titleSection {
     font-family: "Nunito Sans", sans-serif !important;
     font-weight: 600;
     font-size: 35px !important;
     color: var(--title-color) !important;
 }
 
-.titleSectionWhite{
+.titleSectionWhite {
     font-family: "Nunito Sans", sans-serif !important;
     font-weight: 600;
     font-size: 35px !important;
@@ -543,7 +544,8 @@ h1 {
 
 .arrow-container {
     position: absolute;
-    bottom: 20px; /* Ajusta según sea necesario */
+    bottom: 20px;
+    /* Ajusta según sea necesario */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -557,8 +559,10 @@ h1 {
     background-size: contain !important;
     width: 100% !important;
     height: auto !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
 #ourAprroach {
@@ -577,8 +581,10 @@ h1 {
     background-size: cover;
     width: 100% !important;
     height: auto !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
 .portadaCompliance {
@@ -588,8 +594,10 @@ h1 {
     background-size: cover;
     width: 100% !important;
     height: auto !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
 .portadaImpact {
@@ -599,8 +607,10 @@ h1 {
     background-size: cover;
     width: 100% !important;
     height: auto !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
 .portadaImpact2 {
@@ -612,8 +622,10 @@ h1 {
     padding-bottom: 15% !important;
     width: 100% !important;
     height: auto !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
 .impact {
@@ -626,7 +638,7 @@ h1 {
 .listImpact {
     list-style-type: disc !important;
     padding-left: 20px !important;
-    color: var(--text-parrafo) !important; 
+    color: var(--text-parrafo) !important;
 }
 
 .portadalXGOnline {
@@ -636,8 +648,10 @@ h1 {
     background-size: cover;
     width: 100% !important;
     height: auto !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
 .portadaOurTeam2 {
@@ -647,31 +661,35 @@ h1 {
     background-size: cover;
     width: 100% !important;
     height: auto !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
-.textPrincipalHome{
+.textPrincipalHome {
     color: var(--link) !important;
     text-align: center !important;
     font-family: var(--font) !important;
     font-size: 21px !important;
     font-style: normal !important;
     font-weight: 600 !important;
-    line-height: 72px !important; /* 120% */
+    line-height: 72px !important;
+    /* 120% */
 }
 
-.textHome2{
+.textHome2 {
     color: var(--link) !important;
     text-align: center !important;
     font-family: "Nunito Sans" !important;
     font-size: 30px !important;
     font-style: normal !important;
     font-weight: 600 !important;
-    line-height: 36px !important; /* 120% */
+    line-height: 36px !important;
+    /* 120% */
 }
 
-.btnLearMoreHome{
+.btnLearMoreHome {
     width: 50% !important;
 }
 
@@ -697,21 +715,24 @@ h1 {
 
 .carousel-section {
     display: none;
-    transition: opacity 0.5s ease-in-out; /* Transición de opacidad */
+    transition: opacity 0.5s ease-in-out;
+    /* Transición de opacidad */
 }
 
 .carousel-section.show {
     display: block;
-    opacity: 1; /* Mostrar la sección con opacidad 1 */
+    opacity: 1;
+    /* Mostrar la sección con opacidad 1 */
 }
 
 .carousel-section.hide {
-    opacity: 0; /* Ocultar la sección con opacidad 0 */
+    opacity: 0;
+    /* Ocultar la sección con opacidad 0 */
 }
 
 /* --------- */
 
-.ourNumbers{
+.ourNumbers {
     background-color: var(--color3) !important;
 }
 
@@ -738,11 +759,11 @@ h1 {
     background-size: contain;
 }
 
-.logoWeAre{
+.logoWeAre {
     width: 100% !important;
 }
 
-.title1{
+.title1 {
     color: var(--text-parrafo) !important;
     font-family: "Nunito Sans", sans-serif !important;
     font-size: 22px !important;
@@ -757,7 +778,7 @@ h1 {
     font-size: 40px !important;
     font-style: normal !important;
     font-weight: 600 !important;
-    line-height: 120% !important; 
+    line-height: 120% !important;
 }
 
 .text1 {
@@ -766,21 +787,22 @@ h1 {
     font-size: 22px !important;
     font-style: normal !important;
     font-weight: 600 !important;
-    line-height: 150% !important; /* 36px */
+    line-height: 150% !important;
+    /* 36px */
 }
 
 .highlight {
     background: linear-gradient(90deg, #24449F, #01E2E1, #0DEAB1) !important;
-    color: white !important; 
-    padding: 1px 15px !important; 
+    color: white !important;
+    padding: 1px 15px !important;
     border-radius: 50px !important;
     display: inline-block !important;
 }
 
 .highlight3 {
     background: linear-gradient(86.3deg, #24449F -39.7%, #01E2E1 42.27%, #0DEAB1 100%) !important;
-    color: white !important; 
-    padding: 1px 15px !important; 
+    color: white !important;
+    padding: 1px 15px !important;
     border-radius: 50px !important;
     display: inline-block !important;
 }
@@ -839,7 +861,7 @@ h1 {
     line-height: 120% !important;
 }
 
-.minText{
+.minText {
     color: var(--color1) !important;
     font-family: "Poppins", sans-serif !important;
     font-size: 16px !important;
@@ -849,7 +871,7 @@ h1 {
 }
 
 
-.minTextWhite{
+.minTextWhite {
     color: var(--link) !important;
     font-family: "Nunito Sans", sans-serif !important;
     font-size: 18px !important;
@@ -874,8 +896,10 @@ h1 {
     background-size: cover;
     width: 100% !important;
     height: 768px !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
 .portadaSection3 {
@@ -885,8 +909,10 @@ h1 {
     background-size: cover;
     width: 100% !important;
     height: 768px !important;
-    display: inline-block; /* Permite que el ancho se ajuste al contenido */
-    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto;
+    /* Centra el contenedor horizontalmente */
 }
 
 /* SECTION 3 */
@@ -896,8 +922,9 @@ h1 {
     margin: 0px !important;
 }
 
-.node { 
-    background-color: var(--color3) !important; /* Color de fondo azul de los nodos */
+.node {
+    background-color: var(--color3) !important;
+    /* Color de fondo azul de los nodos */
     border-radius: 20px;
     padding: 15px;
     width: 160px !important;
@@ -909,47 +936,58 @@ h1 {
     justify-content: center;
     text-align: center;
     position: relative;
-    z-index: 1; /* Asegura que los nodos estén por encima de las líneas */
+    z-index: 1;
+    /* Asegura que los nodos estén por encima de las líneas */
 }
 
 .node:hover {
-    background-color: #24449F; /* Cambiar color al hacer hover */
+    background-color: #24449F;
+    /* Cambiar color al hacer hover */
 }
 
-.icon-connection12{
-    width: 80% !important; /* Ajusta el tamaño de la imagen */
+.icon-connection12 {
+    width: 80% !important;
+    /* Ajusta el tamaño de la imagen */
     height: auto !important;
-    margin-bottom: 0px; /* Espacio entre la imagen y el nodo */
+    margin-bottom: 0px;
+    /* Espacio entre la imagen y el nodo */
     margin-left: 50% !important;
     margin-top: 40% !important;
 }
 
-.icon-connection23{
-    width: 80% !important; /* Ajusta el tamaño de la imagen */
+.icon-connection23 {
+    width: 80% !important;
+    /* Ajusta el tamaño de la imagen */
     height: 165px !important;
-    margin-bottom: 0px; /* Espacio entre la imagen y el nodo */
+    margin-bottom: 0px;
+    /* Espacio entre la imagen y el nodo */
     margin-left: 50% !important;
     margin-bottom: 40% !important;
 }
 
-.icon-connection34{
-    width: 80% !important; /* Ajusta el tamaño de la imagen */
+.icon-connection34 {
+    width: 80% !important;
+    /* Ajusta el tamaño de la imagen */
     height: 165px !important;
-    margin-bottom: 0px; /* Espacio entre la imagen y el nodo */
+    margin-bottom: 0px;
+    /* Espacio entre la imagen y el nodo */
     margin-left: 35% !important;
     margin-top: 40% !important;
 }
 
-.icon-connection36{
-    width: 80% !important; /* Ajusta el tamaño de la imagen */
+.icon-connection36 {
+    width: 80% !important;
+    /* Ajusta el tamaño de la imagen */
     height: 165px !important;
-    margin-bottom: 0px; /* Espacio entre la imagen y el nodo */
+    margin-bottom: 0px;
+    /* Espacio entre la imagen y el nodo */
     margin-left: 35% !important;
     margin-bottom: 40% !important;
 }
 
 .groupNode {
-    background-color: var(--color3) !important; /* Color de fondo azul de los nodos */
+    background-color: var(--color3) !important;
+    /* Color de fondo azul de los nodos */
     border-radius: 20px;
     padding: 15px;
     width: 160px !important;
@@ -961,7 +999,8 @@ h1 {
     justify-content: center;
     text-align: center;
     position: relative;
-    z-index: 2; /* Asegura que los nodos estén por encima de las líneas */
+    z-index: 2;
+    /* Asegura que los nodos estén por encima de las líneas */
 }
 
 
@@ -985,15 +1024,15 @@ h1 {
     line-height: 56px !important;
 }
 
-.iconNode{
+.iconNode {
     width: 60% !important;
 }
 
-.iconNode2{
+.iconNode2 {
     width: 60% !important;
 }
 
-.marginNode1{
+.marginNode1 {
     margin-top: 5% !important;
 }
 
@@ -1003,8 +1042,9 @@ h1 {
 }
 
 /* Cambia el color del #info-panel al hacer hover sobre el nodo */
-.node:hover ~ #info-panel {
-    background-color: #0DEAB1; /* Color cuando se hace hover */
+.node:hover~#info-panel {
+    background-color: #0DEAB1;
+    /* Color cuando se hace hover */
 }
 
 /* Estilos para las líneas SVG */
@@ -1015,7 +1055,8 @@ h1 {
     width: 100%;
     height: 100%;
     pointer-events: none;
-    z-index: 2; /* Asegura que las líneas estén detrás de los nodos */
+    z-index: 2;
+    /* Asegura que las líneas estén detrás de los nodos */
 }
 
 /* Oculta el panel inicialmente */
@@ -1034,14 +1075,16 @@ h1 {
 }
 
 /* Cambio de color del #info-panel al hacer hover en los nodos */
-.node:hover ~ #info-panel {
-    background-color: #0DEAB1; /* Color al hacer hover */
+.node:hover~#info-panel {
+    background-color: #0DEAB1;
+    /* Color al hacer hover */
 }
 
 #info-panel img {
     display: block;
     margin: 0;
-    text-align: start;  /* Asegura que la imagen esté alineada a la izquierda */
+    text-align: start;
+    /* Asegura que la imagen esté alineada a la izquierda */
 }
 
 .numberInfoPanel {
@@ -1107,12 +1150,15 @@ h1 {
     font-style: normal !important;
     font-weight: 400 !important;
     line-height: 150% !important;
-    list-style-type: disc !important; /* Asegura que los puntos sean visibles */
-    padding-left: 20px !important;    /* Añade un poco de espacio antes de los puntos */
+    list-style-type: disc !important;
+    /* Asegura que los puntos sean visibles */
+    padding-left: 20px !important;
+    /* Añade un poco de espacio antes de los puntos */
 }
 
 .menu-text li {
-    margin-bottom: 10px !important /* Espacio entre los elementos de la lista */
+    margin-bottom: 10px !important
+        /* Espacio entre los elementos de la lista */
 }
 
 .menu-card:hover {
@@ -1123,7 +1169,7 @@ h1 {
     font-size: 24px;
     color: var(--color1) !important;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    display: inline-block; 
+    display: inline-block;
 }
 
 /* .menu-container .collapse .card {
@@ -1144,28 +1190,40 @@ h1 {
 
 .corner-image {
     position: absolute !important;
-    top: 5110px;   /* Ajusta la distancia desde el fondo */
-    right: 0px;    /* Ajusta la distancia desde la derecha */
-    width: 35% !important;   /* Ajusta el tamaño según necesites */
-    z-index: 5 !important;    /* Asegura que la imagen esté sobre el mapa */
+    top: 5110px;
+    /* Ajusta la distancia desde el fondo */
+    right: 0px;
+    /* Ajusta la distancia desde la derecha */
+    width: 35% !important;
+    /* Ajusta el tamaño según necesites */
+    z-index: 5 !important;
+    /* Asegura que la imagen esté sobre el mapa */
 }
 
 .imageSection {
-    position: relative !important;   /* Asegura que la imagen superior respete el z-index */
-    z-index: 10 !important;  /* Asegura que imageSection quede encima */
+    position: relative !important;
+    /* Asegura que la imagen superior respete el z-index */
+    z-index: 10 !important;
+    /* Asegura que imageSection quede encima */
 }
 
 .imageSection2 {
-    position: relative !important;   /* Asegura que la imagen superior respete el z-index */
-    z-index: 10 !important;  /* Asegura que imageSection quede encima */
+    position: relative !important;
+    /* Asegura que la imagen superior respete el z-index */
+    z-index: 10 !important;
+    /* Asegura que imageSection quede encima */
 }
 
 .corner-image2 {
     position: absolute !important;
-    top: 6300px;   /* Ajusta la distancia desde el fondo */
-    left: 0px;    /* Ajusta la distancia desde la derecha */
-    width: 35% !important;   /* Ajusta el tamaño según necesites */
-    z-index: 5 !important;    /* Asegura que la imagen esté sobre el mapa */
+    top: 6300px;
+    /* Ajusta la distancia desde el fondo */
+    left: 0px;
+    /* Ajusta la distancia desde la derecha */
+    width: 35% !important;
+    /* Ajusta el tamaño según necesites */
+    z-index: 5 !important;
+    /* Asegura que la imagen esté sobre el mapa */
 }
 
 /* SECTION 7: CLIENTES */
@@ -1177,22 +1235,27 @@ h1 {
 
 .hr-line {
     border-left: none;
-    border-top: 3px dotted white; /* Línea horizontal en mobile */
+    border-top: 3px dotted white;
+    /* Línea horizontal en mobile */
     height: auto;
-    width: 70%; /* Ancho ajustado para mobile */
+    width: 70%;
+    /* Ancho ajustado para mobile */
 }
 
 
 @media (min-width: 768px) {
     .hr-line {
         border: none;
-        border-left: 3px dotted var(--color2) !important; /* Línea vertical para desktop */
-        height: 150px !important; /* Ajusta la altura */
-        width: 0; /* Sin ancho en desktop */
+        border-left: 3px dotted var(--color2) !important;
+        /* Línea vertical para desktop */
+        height: 150px !important;
+        /* Ajusta la altura */
+        width: 0;
+        /* Sin ancho en desktop */
     }
 }
 
-/* SECTION PEOPLE */
+/* SECTION : 8 TEAM */
 
 #people {
     padding-top: 9% !important;
@@ -1202,26 +1265,55 @@ h1 {
     padding-top: 5% !important;
 }
 
-.portadaPeople2{
-    background-image: url('../img/imgPortadas/LXG-Hero-3.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.image-container {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
-.iconPeople {
-    width: 20px !important;
-    margin-right: 6px !important;
+.image-container img {
+    width: 100%;
+    transition: transform 0.3s ease;
 }
 
-.portadaNews{
-    background-image: url('../img/imgPortadas/portadaNews.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20% !important;
-    padding-bottom: 20% !important;
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
 }
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.image-container:hover img {
+    transform: scale(1.1);
+}
+
+.swiper-container {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000;
+    /* Cambia el color según tu diseño */
+}
+
+.swiper-pagination-bullet {
+    background-color: #000;
+    /* Color de los puntos de paginación */
+}
+
 
 /* FOOTER */
 
@@ -1229,13 +1321,14 @@ h1 {
     background-color: var(--color1) !important;
 }
 
-.text-footer{
+.text-footer {
     color: var(--color2) !important;
     font-family: var(--font) !important;
     font-size: 16px !important;
     font-style: normal !important;
     font-weight: 500 !important;
-    line-height: 150% !important; /* 24px */
+    line-height: 150% !important;
+    /* 24px */
 }
 
 .full-width-line {
@@ -1274,7 +1367,7 @@ h1 {
     border: none;
 }
 
-.btn2{
+.btn2 {
     background-color: transparent !important;
     font-family: "Space Mono", monospace !important;
     font-size: 15px;
@@ -1300,7 +1393,8 @@ h1 {
 /* NAVBAR CUSTOM */
 
 .navbar-scrolled {
-    background-color: var(--link) !important; /* Cambia el fondo del navbar a blanco */
+    background-color: var(--link) !important;
+    /* Cambia el fondo del navbar a blanco */
     transition: background-color 0.3s ease-in-out;
 }
 
@@ -1320,7 +1414,8 @@ h1 {
 
 /* Hover después de que el navbar haya cambiado por scroll */
 .navbar-scrolled .btn-nav:hover {
-    color: var(--color1) !important; /* Texto cambia a blanco solo al hacer hover */
+    color: var(--color1) !important;
+    /* Texto cambia a blanco solo al hacer hover */
     border: 1px solid var(--color1) !important;
 }
 
@@ -1444,7 +1539,7 @@ h1 {
         background-color: transparent !important;
     }
 
-    .form-label{
+    .form-label {
         color: var(--title-color) !important;
         font-family: "Roboto" !important;
         font-weight: 400 !important;
@@ -1452,7 +1547,7 @@ h1 {
         text-decoration: none !important;
     }
 
-    .form-control{
+    .form-control {
         color: var(--textFooter) !important;
         font-family: "Roboto" !important;
         font-weight: 300 !important;
@@ -1480,7 +1575,7 @@ h1 {
     .portadaWhatWe1 {
         height: auto !important;
     }
-    
+
     .text-journey {
         font-size: 20px !important;
         padding-top: 20px !important;
@@ -1502,19 +1597,19 @@ h1 {
         font-size: 25px !important;
     }
 
-    .titleSection{
+    .titleSection {
         font-size: 40px !important;
     }
-    
-    .titleSectionWhite{
+
+    .titleSectionWhite {
         font-size: 48px !important;
     }
 
-    .titleOurApproach{
+    .titleOurApproach {
         font-size: 60px !important;
     }
 
-    .titleNews{
+    .titleNews {
         font-size: 48px !important;
     }
 
@@ -1522,11 +1617,12 @@ h1 {
         font-size: 72px !important;
     }
 
-    .textHome2{
+    .textHome2 {
         font-size: 60px !important;
         font-style: normal !important;
         font-weight: 600 !important;
-        line-height: 60px !important; /* 120% */
+        line-height: 60px !important;
+        /* 120% */
     }
 
     .icon {
@@ -1546,11 +1642,11 @@ h1 {
         width: 75% !important;
     }
 
-    .imgCapital1{
+    .imgCapital1 {
         width: 80% !important;
     }
-    
-    .imgOffice2{
+
+    .imgOffice2 {
         width: 80% !important;
     }
 
@@ -1570,12 +1666,12 @@ h1 {
         font-size: 15px !important;
     }
 
-    .sectionLxg{
+    .sectionLxg {
         padding-top: 10% !important;
         padding-bottom: 6% !important;
     }
 
-    .icon4{
+    .icon4 {
         width: 23% !important;
     }
 
@@ -1601,16 +1697,16 @@ h1 {
         width: 35px !important;
     }
 
-    .portadaBusinesses{
+    .portadaBusinesses {
         padding-top: 15% !important;
         padding-bottom: 15% !important;
     }
-    
+
     .iconPeople {
         width: 27px !important;
     }
 
-    .portadaNews{
+    .portadaNews {
         padding-top: 15% !important;
         padding-bottom: 15% !important;
     }
@@ -1625,7 +1721,7 @@ h1 {
         padding-bottom: 5% !important;
     }
 
-    .portadaCapital{
+    .portadaCapital {
         background-image: none !important;
     }
 
@@ -1634,7 +1730,7 @@ h1 {
         padding-bottom: 15% !important;
     }
 
-    .portadaOffice{
+    .portadaOffice {
         background-image: none !important;
     }
 
@@ -1643,7 +1739,7 @@ h1 {
         padding-bottom: 10% !important;
     }
 
-    .portadaPeople{
+    .portadaPeople {
         padding-top: 15% !important;
         padding-bottom: 15% !important;
     }
@@ -1652,8 +1748,8 @@ h1 {
         padding-top: 10% !important;
         padding-bottom: 10% !important;
     }
-    
-    .imageNews{
+
+    .imageNews {
         height: 500px !important;
         object-fit: cover;
     }
@@ -1662,10 +1758,10 @@ h1 {
         padding-top: 10% !important;
     }
 
-    .imgContact{
+    .imgContact {
         width: 80% !important;
     }
-    
+
     .iconCircle {
         width: 24% !important;
     }
@@ -1674,7 +1770,7 @@ h1 {
         width: 20% !important;
     }
 
-    .accordion-body{
+    .accordion-body {
         font-size: 19px !important;
     }
 
@@ -1703,7 +1799,7 @@ h1 {
         font-size: 16px !important;
     }
 
-    
+
 
     .nav-item {
         margin-right: 5px !important;
