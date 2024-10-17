@@ -33,7 +33,7 @@
                 </div>
             </div>
         </div>
-        <div class="paddingTop paddingBottom">
+        <div id="section1" class="paddingTop paddingBottom">
             <div class="container">
                 <div class="col-12 text-center">
                     <h2 class="titleSection" style="color: var(--color1) !important;">
@@ -373,8 +373,8 @@
                         <div class="image-container">
                             <img src="public/img/team/PEOPLE-1.jpg" alt="imagen 1">
                             <div class="overlay">
-                                <h3>Marcelo Vallada</h3>
-                                <p>Diretor Administrativo Financeiro</p>
+                                <h3 class="title-carousel">Matheus do Monte</h3>
+                                <p class="text-carousel">Diretor Operacional</p>
                             </div>
                         </div>
                     </div>
@@ -382,8 +382,8 @@
                         <div class="image-container">
                             <img src="public/img/team/PEOPLE-2.jpg" alt="imagen 2">
                             <div class="overlay">
-                                <h3>Otro Líder</h3>
-                                <p>Cargo</p>
+                                <h3 class="title-carousel">Fabio Gonzaga</h3>
+                                <p class="text-carousel">Diretor Operacional</p>
                             </div>
                         </div>
                     </div>
@@ -391,8 +391,8 @@
                         <div class="image-container">
                             <img src="public/img/team/PEOPLE-3.jpg" alt="imagen 3">
                             <div class="overlay">
-                                <h3>Otro Líder</h3>
-                                <p>Cargo</p>
+                                <h3 class="title-carousel">Fabio Sola</h3>
+                                <p class="text-carousel">Diretor Comercial</p>
                             </div>
                         </div>
                     </div>
@@ -400,28 +400,75 @@
                         <div class="image-container">
                             <img src="public/img/team/PEOPLE-4.jpg" alt="imagen 4">
                             <div class="overlay">
-                                <h3>Otro Líder</h3>
-                                <p>Cargo</p>
+                                <h3 class="title-carousel">Marcelo Vallada</h3>
+                                <p class="text-carousel">Diretor Administrativo Financeiro</p>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="image-container">
-                            <img src="public/img/team/PEOPLE-5.jpg" alt="imagen 5">
-                            <div class="overlay">
-                                <h3>Otro Líder</h3>
-                                <p>Cargo</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Más imágenes -->
                 </div>
-                <!-- Botones de navegación -->
-                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-button-next"></div>
                 <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+        <div id="section9">
+            <div class="container">
+                <div class="col-sm-12 justify-content-center text-center mb-3">
+                    <h2 class="subtitle1"><span class="highlight4">Trabalhe</span>
+                        <span style="color: var(--color2) !important;">Conosco</span>
+                    </h2>
+                </div>
+                <div class="col-sm-12 justify-content-center text-center mb-3">
+                    <h4 class="text1 fw-lighter" style="color: var(--color2) !important;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                </div>
+                <div class="col-sm-12 justify-content-center text-center align-items-center">
+                    <a href="trabalheConosco.php"><img src="./public/img/Buttons/btn-CV.svg" alt="btn fale conosco"></a>
+                </div>
+            </div>
+        </div>
+        <div class="portadaConosco m-0"></div>
+        <div id="section10">
+            <div class="container">
+                <div class="col-sm-12 text-center justify-content-center">
+                    <h2 class="subtitle1 mb-3"><span class="highlight4">Fale</span>
+                        <span style="color: var(--color2) !important;">Conosco</span>
+                    </h2>
+                    <h4 class="text1 fw-lighter" style="color: var(--color2) !important;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </h4>
+                    <div class="container py-5">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                <form class="text-start" action="enviar.php" method="post">
+                                    <div class="mb-3">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control rounded-pill border-light" id="nombre" name="nombre">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="sobrenome" class="form-label">Sobrenome</label>
+                                        <input type="text" class="form-control rounded-pill border-light" id="apellido" name="apellido">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="email" class="form-label">Email</label>
+                                        <input type="email" class="form-control rounded-pill border-light" id="email" name="email">
+                                    </div>
+                                    <div class="mb-5">
+                                        <label for="mensagem" class="form-label">Mensagem</label>
+                                        <textarea class="form-control rounded-3 border-light" id="mensagem" rows="4" name="asunto" placeholder="Digite sua mensagem..."></textarea>
+                                    </div>
+                                    <div class="col-sm-12 text-center justify-content-center align-items-center">
+                                        <button type="submit" style="background: none !important; border: none !important;">
+                                            <img src="./public/img/Buttons/enviar.svg">
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
 
-                <!-- Paginación -->
-                <div class="swiper-pagination"></div>
+                </div>
             </div>
         </div>
     </main>

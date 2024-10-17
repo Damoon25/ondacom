@@ -22,13 +22,13 @@
                     <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#section7">Clientes</a></button>
                 </li>
                 <li class="pt-4 pe-4">
-                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#section7">Equipe</a></button>
+                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#section8">Equipe</a></button>
                 </li>
                 <li class="pt-4 pe-4">
-                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#contacto">Trabalhe Conosco</a></button>
+                    <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link animate__animated animate__backInRight animate__delay-1s animate__fast" href="#section9">Trabalhe Conosco</a></button>
                 </li>
                 <li class="pt-4 pe-4">
-                    <a href="#formContact"><img  src="./public/img/Buttons/btn_faleConosco.svg" alt="Fale Conosco"></a>
+                    <a href="#section10"><img  src="./public/img/Buttons/btn_faleConosco.svg" alt="Fale Conosco"></a>
                 </li>
             </ul>
         </div>
@@ -45,13 +45,13 @@
                 <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#section7">Clientes</a></button>
             </li>
             <li class="pt-4 pe-3">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#section7">Equipe</a></button>
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#section8">Equipe</a></button>
             </li>
             <li class="pt-4 pe-3">
-                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#contacto">Trabalhe Conosco</a></button>
+                <button class="btn-nav btn rounded-pill btn-lg"><a class="nav-link" href="#section9">Trabalhe Conosco</a></button>
             </li>
             <li class="pt-4 pe-4">
-                <a href="#formContact"><img width="85%" src="./public/img/Buttons/btn_faleConosco.svg" alt="Fale Conosco"></a>
+                <a href="#section10"><img width="85%" src="./public/img/Buttons/btn_faleConosco.svg" alt="Fale Conosco"></a>
             </li>
         </ul>
     </div>

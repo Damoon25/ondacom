@@ -16,6 +16,8 @@
     --color2: #FFFFFF;
     --color3: #415FFF;
     --color4: #0DEAB1;
+    --color5: #1E3985;
+    --color6: #2f4ea4;
     --textFooter: #999999;
     --text: #ffffff;
     --text-parrafo: #231F20;
@@ -766,7 +768,7 @@ h1 {
 .title1 {
     color: var(--text-parrafo) !important;
     font-family: "Nunito Sans", sans-serif !important;
-    font-size: 22px !important;
+    font-size: 20px !important;
     font-style: normal !important;
     font-weight: 600 !important;
     line-height: normal !important;
@@ -784,11 +786,10 @@ h1 {
 .text1 {
     color: var(--color1) !important;
     font-family: var(--font) !important;
-    font-size: 22px !important;
+    font-size: 18px !important;
     font-style: normal !important;
     font-weight: 600 !important;
     line-height: 150% !important;
-    /* 36px */
 }
 
 .highlight {
@@ -1190,7 +1191,7 @@ h1 {
 
 .corner-image {
     position: absolute !important;
-    top: 5110px;
+    top: 5050px;
     /* Ajusta la distancia desde el fondo */
     right: 0px;
     /* Ajusta la distancia desde la derecha */
@@ -1216,7 +1217,7 @@ h1 {
 
 .corner-image2 {
     position: absolute !important;
-    top: 6300px;
+    top: 6200px;
     /* Ajusta la distancia desde el fondo */
     left: 0px;
     /* Ajusta la distancia desde la derecha */
@@ -1257,18 +1258,29 @@ h1 {
 
 /* SECTION : 8 TEAM */
 
-#people {
-    padding-top: 9% !important;
+.title-carousel{
+    color: var(--color2) !important;
+    text-align: center !important;
+    font-family: var(--font) !important;
+    font-size: 20px !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    line-height: 150% !important;
 }
 
-.people {
-    padding-top: 5% !important;
+.text-carousel{
+    color: var(--color2) !important;
+    text-align: center !important;
+    font-family: var(--font) !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 150% !important;
 }
 
 .image-container {
     position: relative;
     overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
 }
 
@@ -1306,19 +1318,78 @@ h1 {
 .swiper-button-next,
 .swiper-button-prev {
     color: #000;
-    /* Cambia el color según tu diseño */
 }
 
 .swiper-pagination-bullet {
     background-color: #000;
-    /* Color de los puntos de paginación */
+}
+
+/* SECTION 9: CONOSCO */
+
+#section9 {
+    background: linear-gradient(85deg, #24449F -0.6%, #01E2E1 57.83%, #0DEAB1 117.83%) !important;
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.highlight4 {
+    background: var(--color2) !important;
+    color: var(--color1) !important;
+    padding: 1px 15px !important;
+    border-radius: 50px !important;
+    display: inline-block !important;
+}
+
+.portadaConosco {
+    background-image: url('../img/imgPortadas/IMG-HOME-6.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100% !important;
+    height: 768px !important;
+    display: inline-block;
+    /* Permite que el ancho se ajuste al contenido */
+    margin: 0 auto !important;
+    padding: 0 auto !important;
+    /* Centra el contenedor horizontalmente */
+}
+
+/* SECTION 10: CONTACT */
+
+#section10 {
+    background-color: var(--color1) !important;
+    padding-top: 10% !important;
+    padding-bottom: 10% !important;
+}
+
+.form-control {
+    background-color: var(--color6) !important; /* Reemplaza con el color correcto */
+    color: var(--color2) !important; /* Asegúrate de que el texto sea visible */
+    border: 1px solid var(--color2) !important; /* Quita bordes si es necesario */
+    border-radius: 25px !important; /* Ajusta el radio de los bordes como en la imagen */
+    padding: 10px !important;
+}
+
+.form-control::placeholder {
+    color: var(--color2) !important;
+    
+}
+
+
+.form-label {
+    font-family: var(--font) !important;
+    color: var(--color2) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    text-align: left !important;    
 }
 
 
 /* FOOTER */
 
 #footer {
-    background-color: var(--color1) !important;
+    background-color: var(--color5) !important;
 }
 
 .text-footer {
@@ -1528,31 +1599,6 @@ h1 {
 
     .tituloFooter {
         font-size: 20px !important;
-    }
-
-    .bottom-border {
-        border-top: none !important;
-        border-left: none !important;
-        border-right: none !important;
-        border-radius: 0 !important;
-        border-bottom: 1px solid var(--title-color) !important;
-        background-color: transparent !important;
-    }
-
-    .form-label {
-        color: var(--title-color) !important;
-        font-family: "Roboto" !important;
-        font-weight: 400 !important;
-        font-size: 16px !important;
-        text-decoration: none !important;
-    }
-
-    .form-control {
-        color: var(--textFooter) !important;
-        font-family: "Roboto" !important;
-        font-weight: 300 !important;
-        font-size: 12px !important;
-        text-decoration: none !important;
     }
 
     .subtituloContacto {
