@@ -18,7 +18,7 @@
                     <div class="row">
                         <div class="col-sm-12 align-self-center">
                             <div class="mb-3 mt-3">
-                                <div class="col-sm-6 col-md-12 mt-3" style="padding-top: 20% !important;">
+                                <div class="col-sm-6 col-md-12 mt-3">
                                     <p class="text-center text-md-start animate__fadeInLeft animate__animated animate__faster animate__slower textPrincipalHome">
                                         Criando <br>
                                         Conectividade
@@ -65,53 +65,115 @@
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
                 </div>
-                <div class="col-sm-12 position-relative">
-                    <div class="container">
-                        <div class="row position-relative">
-                            <!-- Columna de nodo 1 -->
-                            <div class="col-md-2 d-flex flex-column align-items-center position-relative">
-
-                                <img src="./public/img/icons/conexion-12.svg" alt="" class="icon-connection12" />
-                                <!-- Nodo 1 -->
-                                <div id="node1" class="d-flex justify-content-center align-items-center position-relative"></div>
-                            </div>
-                            <div class="col-md-2 d-flex flex-column align-items-center position-relative">
-                                <!-- Nodo 2 -->
-                                <div id="node2" class="d-flex justify-content-center align-items-center position-relative"></div>
-
-                                <img src="./public/img/icons/conexion-23.svg" alt="" class="icon-connection23" />
-
-                            </div>
-                            <div class="col-md-2 d-flex flex-column align-items-center position-relative">
-
-                                <div class="position-relative">
-                                    <img src="./public/img/icons/conexion-34.png" alt="" class="icon-connection34" />
+                <div class="d-block d-md-none">
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-center">
+                            <a href="public/img/card-diagram/nodo1.svg" data-fancybox data-caption="Nodo 1: Data Centers e Servidores Centrais" data-options='{"toolbar": false, "smallBtn": false, "buttons": []}'>
+                                <div class="mobile-node" id="mobile-node1">
+                                    <span class="numberText">1.</span>
+                                    <p class="textNode">Data Centers e Servidores Centrais</p>
+                                    <img class="iconNode" src="" alt="">
                                 </div>
-                                <!-- Nodo 3 -->
-                                <div id="node3" class="d-flex justify-content-center align-items-center position-relative m-0"></div>
-
-                                <div class="position-relative">
-                                    <img src="./public/img/icons/conexion-36.png" alt="" class="icon-connection36" />
-                                </div>
-                            </div>
-                            <div class="col-md-3 d-flex flex-column">
-                                <div id="node4" class="mb-5"></div>
-                                <div id="node5" class="mb-5"></div>
-                                <div id="node6"></div>
-                            </div>
-                            <div class="col-md-3">
-                                <div id="info-panel" class="info-panel" style="visibility: hidden;">
-                                    <img src="" alt="Icono" style="display: block; text-align: start;" /> <!-- Alineado a la izquierda -->
-                                    <h2 class="numberInfoPanel">se encuentra el id...</h2>
-                                    <p class="subtextInfoPanel"><strong>se encuentra el nombre...</strong></p>
-                                    <p class="textInfoPanel">se encuentran los detalles...</p>
-                                </div>
-                            </div>
+                            </a>
                         </div>
-                        <!-- Contenedor SVG para las líneas -->
-                        <svg id="lines"></svg>
+                        <div class="col-6 d-flex justify-content-center">
+                            <a href="public/img/card-diagram/nodo2.svg" data-fancybox data-caption="Nodo 2: Backbone" data-options='{"toolbar": false, "smallBtn": false, "buttons": []}'>
+                                <div class="mobile-node" id="mobile-node2">
+                                    <span class="numberText">2.</span>
+                                    <p class="textNode">Backbone</p>
+                                    <img class="iconNode" src="" alt="">
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-center">
+                            <a href="public/img/card-diagram/nodo3.svg" data-fancybox data-caption="Nodo 3: Central (DG)" data-options='{"toolbar": false, "smallBtn": false, "buttons": []}'>
+                                <div class="mobile-node" id="mobile-node3">
+                                    <span class="numberText">3.</span>
+                                    <p class="textNode">Central (DG)</p>
+                                    <img class="iconNode" src="" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <a href="public/img/card-diagram/nodo4.svg" data-fancybox data-caption="Nodo 4: Casa Cliente" data-options='{"toolbar": false, "smallBtn": false, "buttons": []}'>
+                                <div class="mobile-node" id="mobile-node4">
+                                    <span class="numberText">4.</span>
+                                    <p class="textNode">Casa Cliente</p>
+                                    <img class="iconNode" src="" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 d-flex justify-content-center">
+                            <a href="public/img/card-diagram/nodo5.svg" data-fancybox data-caption="Nodo 5: Móvel" data-options='{"toolbar": false, "smallBtn": false, "buttons": []}'>
+                                <div class="mobile-node" id="mobile-node5">
+                                    <span class="numberText">5.</span>
+                                    <p class="textNode">Móvel</p>
+                                    <img class="iconNode" src="" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 d-flex justify-content-center">
+                            <a href="public/img/card-diagram/nodo6.svg" data-fancybox data-caption="Nodo 6: Cliente Corporativo" data-options='{"toolbar": false, "smallBtn": false, "buttons": []}'>
+                                <div class="mobile-node" id="mobile-node6">
+                                    <span class="numberText">6.</span>
+                                    <p class="textNode">Cliente Corporativo</p>
+                                    <img class="iconNode" src="" alt="">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-12 position-relative">
+                <div class="container d-none d-md-block">
+                    <div class="row position-relative">
+                        <!-- Columna de nodo 1 -->
+                        <div class="col-md-2 d-flex flex-column align-items-center position-relative">
+
+                            <img src="./public/img/icons/conexion-12.svg" alt="" class="icon-connection12 d-none d-xl-block" />
+                            <!-- Nodo 1 -->
+                            <div id="node1" class="d-flex justify-content-center align-items-center position-relative"></div>
+                        </div>
+                        <div class="col-md-2 d-flex flex-column align-items-center position-relative">
+                            <!-- Nodo 2 -->
+                            <div id="node2" class="d-flex justify-content-center align-items-center position-relative"></div>
+
+                            <img src="./public/img/icons/conexion-23.svg" alt="" class="icon-connection23 d-none d-xl-block" />
+
+                        </div>
+                        <div class="col-md-2 d-flex flex-column align-items-center position-relative">
+
+                            <div class="position-relative">
+                                <img src="./public/img/icons/conexion-34.png" alt="" class="icon-connection34 d-none d-xl-block" />
+                            </div>
+                            <!-- Nodo 3 -->
+                            <div id="node3" class="d-flex justify-content-center align-items-center position-relative m-0"></div>
+
+                            <div class="position-relative">
+                                <img src="./public/img/icons/conexion-36.png" alt="" class="icon-connection36 d-none d-xl-block" />
+                            </div>
+                        </div>
+                        <div class="col-md-3 d-md-flex flex-md-column">
+                            <div id="node4" class="mb-5"></div>
+                            <div id="node5" class="mb-5"></div>
+                            <div id="node6"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div id="info-panel" class="info-panel" style="visibility: hidden;">
+                                <img src="" alt="Icono" style="display: block; text-align: start;" /> <!-- Alineado a la izquierda -->
+                                <h2 class="numberInfoPanel">se encuentra el id...</h2>
+                                <p class="subtextInfoPanel"><strong>se encuentra el nombre...</strong></p>
+                                <p class="textInfoPanel">se encuentran los detalles...</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -252,11 +314,11 @@
         <div class="portadaSection3 m-0"></div>
         <div id="map" style="width: 100%; height: 825px; position: relative;"></div>
         <img id="corner-image" src="public/img/icons/vector-colores.png" alt="Esquina" class="corner-image d-none d-md-block" />
-        <div id="section6" class="container">
+        <div id="section6" class="container mt-5 mt-md-0">
             <div class="col-sm-12 flex-column flex-md-row paddingTop paddingBottom">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 order-md-2">
-                        <img data-aos="fade-left" class="imageSection p-md-5 pe-md-0" src="./public/img/imgPortadas/IMG-HOME-4.jpg" alt="Imagen 4">
+                        <img data-aos="fade-left" class="imageSection p-md-5 pe-md-0 mb-3 mb-md-0" src="./public/img/imgPortadas/IMG-HOME-4.jpg" alt="Imagen 4">
                     </div>
                     <div class="col-sm-12 pe-md-0 col-md-6 order-md-1 align-self-center">
                         <div class="align-self-start paddingBottom">
@@ -293,7 +355,7 @@
             <div class="col-sm-12 flex-column flex-md-row paddingBottom">
                 <div class="row">
                     <div class="col-sm-12 col-md-6 order-md-1">
-                        <img data-aos="fade-left" class="imageSection2 p-md-5 ps-md-0" src="./public/img/imgPortadas/IMG-HOME-5.png" alt="Imagen 5">
+                        <img data-aos="fade-left" class="imageSection2 p-md-5 ps-md-0 mb-3 mb-md-0" src="./public/img/imgPortadas/IMG-HOME-5.png" alt="Imagen 5">
                     </div>
                     <div class="col-sm-12 pe-md-0 col-md-6 order-md-2 align-self-center">
                         <div class="mt-md-5">
@@ -325,20 +387,20 @@
             <div id="section7" class="col-sm-12 justify-content-center text-center mb-5">
                 <h2 class="subtitle1">Clientes</h2>
             </div>
-            <div class="row col-sm-12 flex-sm-column flex-md-row justify-content-center align-items-center text-center">
-                <div class="col-sm-12 col-md-2">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-6 col-md-2 mb-3">
                     <img src="./public/img/brands/logo-1.png" alt="logo 1">
                 </div>
-                <div class="col-sm-12 col-md-2">
+                <div class="col-6 col-md-2 mb-3">
                     <img src="./public/img/brands/logo-2.jpg" alt="logo 2">
                 </div>
-                <div class="col-sm-12 col-md-2">
+                <div class="col-6 col-md-2 mb-3">
                     <img src="./public/img/brands/logo-3.jpg" alt="logo 3">
                 </div>
-                <div class="col-sm-12 col-md-2">
+                <div class="col-6 col-md-2 mb-3">
                     <img src="./public/img/brands/logo-4.jpg" alt="logo 4">
                 </div>
-                <div class="col-sm-12 col-md-2">
+                <div class="col-6 col-md-2 mb-3">
                     <img src="./public/img/brands/logo-5.jpg" alt="logo 5">
                 </div>
             </div>
@@ -479,46 +541,14 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- FW PARA DIAGRAMA -->
     <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script>
-        const swiper = new Swiper('.swiper-container', {
-            loop: true, // Hacer que el carrusel esté en bucle
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-            },
-            slidesPerView: 3, // Mostrar 3 slides a la vez en pantallas grandes
-            spaceBetween: 30, // Espacio entre los slides
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            breakpoints: {
-                // Configuración responsiva para pantallas más pequeñas
-                640: {
-                    slidesPerView: 1,
-                    spaceBetween: 20,
-                },
-                768: {
-                    slidesPerView: 2,
-                    spaceBetween: 20,
-                },
-                1024: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
-                },
-            }
-        });
-    </script>
     <!-- FW PARA EL MAPA -->
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="public/js/diagrama.js"></script>
     <script src="public/js/mapa.js"></script>
     <script src="public/js/main.js"></script>
+    <!-- Fancybox JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0.27/dist/fancybox.umd.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>

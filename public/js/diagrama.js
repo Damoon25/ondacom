@@ -180,3 +180,30 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error('Error al cargar los datos:', error));
 });
+
+
+// DIAGRAMA MOBILE
+
+document.addEventListener("DOMContentLoaded", function () {
+    fetch('diagramaData.php')
+        .then(response => response.json())
+        .then(data => {
+            data.nodes.forEach(node => {
+                const container = document.querySelector(`#mobile-node${node.id}`);
+
+                if (container) {
+                    // Actualizar texto
+                    container.querySelector(".numberText").textContent = `${node.id}.`;
+                    container.querySelector(".textNode").textContent = node.name;
+
+                    // Agregar imagen
+                    const iconNode = container.querySelector(".iconNode");
+                    if (iconNode) {
+                        iconNode.src = node.icon;
+                        iconNode.alt = `Icono de ${node.name}`;
+                    }
+                }
+            });
+        })
+        .catch(error => console.error('Error al cargar los datos:', error));
+});

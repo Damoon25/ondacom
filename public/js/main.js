@@ -61,3 +61,58 @@ window.addEventListener('scroll', function () {
         logo.src = './public/img/logo.svg';
     }
 });
+
+//  Asegúrate de que el DOM esté completamente cargado
+document.addEventListener("DOMContentLoaded", function() {
+    // Mostrar el menú offcanvas al hacer clic en el botón de menú
+    var btnMenu = document.querySelector('.btnMenu');
+    var offcanvas = document.getElementById('offcanvasExample');
+    var closeMenu = document.querySelector('.close-menu');
+    
+    if (btnMenu && offcanvas && closeMenu) {  // Verifica que los elementos existan
+        btnMenu.addEventListener('click', function() {
+            offcanvas.classList.add('show');
+        });
+
+        closeMenu.addEventListener('click', function() {
+            offcanvas.classList.remove('show');
+        });
+    }
+});
+
+
+// CAROUSEL
+
+const swiper = new Swiper('.swiper-container', {
+    loop: true, // Hacer que el carrusel esté en bucle
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    slidesPerView: 3, // Mostrar 3 slides a la vez en pantallas grandes
+    spaceBetween: 30, // Espacio entre los slides
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    breakpoints: {
+        // Configuración responsiva para pantallas más pequeñas
+        375: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+        },
+        1024: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+        },
+    }
+});
+
