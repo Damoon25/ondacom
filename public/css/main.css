@@ -16,6 +16,8 @@
     --color4: #0DEAB1;
     --color5: #1E3985;
     --color6: #2f4ea4;
+    --color7: #f4f5fa;
+    --color8: #ACB8DC;
     --textFooter: #999999;
     --text: #ffffff;
     --text-parrafo: #231F20;
@@ -121,6 +123,15 @@ ul {
     transition: max-height .5s ease-out;
 }
 
+.offcanvas {
+    background-color: var(--color6) !important;
+    opacity: .7 !important;
+}
+
+.offcanvas-body .nav-link {
+    color: var(--color2) !important;
+}
+
 .navbar-custom {
     background-color: transparent !important;
     padding-left: 15px;
@@ -128,33 +139,6 @@ ul {
     /* box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1) !important; */
 }
 
-/* Estilos del offcanvas sin Flexbox */
-.offcanvas {
-    display: block;
-    position: fixed;
-    top: 0;
-    right: -100%;
-    width: 100%;
-    height: 100vh;
-    background: var(--color1);
-    transition: right 0.3s ease-in-out;
-    z-index: 1055;
-    overflow-y: auto;  /* Permite desplazamiento en caso de contenido largo */
-}
-
-.offcanvas.show {
-    right: 0;
-}
-
-.offcanvas-header {
-    padding: 15px;
-    background: var(--color1);
-}
-
-.offcanvas-body {
-    padding: 20px;
-    height: calc(100vh - 60px);  /* Ajuste de la altura */
-}
 
 /* Estilo de los enlaces y botones */
 ul.navbar-nav {
@@ -172,10 +156,6 @@ ul.navbar-nav a.nav-link {
     color: white;
 }
 
-.offcanvas-body img {
-    width: 80%;
-}
-
 .btnMenu {
     background: none;
     border: none;
@@ -191,12 +171,6 @@ ul.navbar-nav a.nav-link {
     background: none;
     border: none;
     cursor: pointer;
-}
-
-@media (min-width: 992px) {
-    .offcanvas {
-        display: none; /* Hide offcanvas on larger screens */
-    }
 }
 
 .nav-link {
@@ -1213,7 +1187,7 @@ h1 {
 
 .corner-image {
     position: absolute !important;
-    top: 5070px;
+    top: 5030px;
     /* Ajusta la distancia desde el fondo */
     right: 0px;
     /* Ajusta la distancia desde la derecha */
@@ -1239,7 +1213,7 @@ h1 {
 
 .corner-image2 {
     position: absolute !important;
-    top: 6200px;
+    top: 6150px;
     /* Ajusta la distancia desde el fondo */
     left: 0px;
     /* Ajusta la distancia desde la derecha */
@@ -1429,6 +1403,60 @@ h1 {
     text-align: left !important;    
 }
 
+/* SECTION 1: TRABALHE CONOSCO */
+
+#formCV{
+    padding-top: 2% !important;
+}
+
+.custom-input-form {
+    color: var(--color8) !important;
+    background-color: var(--color7) !important;
+    border: 1px solid var(--color1) !important;
+}
+
+.custom-input-form::placeholder {
+    color: var(--color8) !important; /* Ajusta este color si es necesario */
+    opacity: 1 !important; /* Asegura que el placeholder sea completamente visible */
+}
+
+.btn-outline-primary{
+    color: var(--color8) !important;
+    background-color: var(--color7) !important;
+}
+
+.btn-outline-primary:hover {
+    color: var(--color2) !important;
+    background-color: var(--color1) !important;
+}
+
+#carta {
+    padding-left: 10px !important; /* Evita espacios en blanco al escribir */
+}
+
+.custom-check {
+    background-color: var(--color7) !important;
+    border: 1px solid var(--color1) !important;
+}
+
+/* SECTION 1: CORRUPCION*/
+
+#landing{
+    padding-top: 2% !important;
+}
+
+li {
+    margin-bottom: 10px !important;
+}
+
+.textPolitic {
+    color: var(--color1) !important;
+    font-family: var(--font) !important;
+    font-size: 18px !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    line-height: 150% !important; /* 27px */
+}
 
 /* FOOTER */
 
@@ -1678,6 +1706,14 @@ h1 {
 
     .popUpMap {
         font-size: 15px !important;
+    }
+
+    #formCV{
+        padding-top: 15% !important;
+    }
+
+    #landing{
+        padding-top: 15% !important;
     }
 
     .text-journey {

@@ -62,25 +62,6 @@ window.addEventListener('scroll', function () {
     }
 });
 
-//  Asegúrate de que el DOM esté completamente cargado
-document.addEventListener("DOMContentLoaded", function() {
-    // Mostrar el menú offcanvas al hacer clic en el botón de menú
-    var btnMenu = document.querySelector('.btnMenu');
-    var offcanvas = document.getElementById('offcanvasExample');
-    var closeMenu = document.querySelector('.close-menu');
-    
-    if (btnMenu && offcanvas && closeMenu) {  // Verifica que los elementos existan
-        btnMenu.addEventListener('click', function() {
-            offcanvas.classList.add('show');
-        });
-
-        closeMenu.addEventListener('click', function() {
-            offcanvas.classList.remove('show');
-        });
-    }
-});
-
-
 // CAROUSEL
 
 const swiper = new Swiper('.swiper-container', {
@@ -116,3 +97,32 @@ const swiper = new Swiper('.swiper-container', {
     }
 });
 
+// INPUT PDF
+
+document.getElementById('curriculo').addEventListener('change', function () {
+    var fileName = this.files.length > 0 ? this.files[0].name : 'Nenhum arquivo selecionado';
+    document.getElementById('fileName').textContent = fileName;
+});
+
+// MENU DESPLEGABLE MOBILE
+
+document.addEventListener("DOMContentLoaded", function() {
+    var offcanvasLinks = document.querySelectorAll('.offcanvas-body a');
+    var offcanvas = document.getElementById('offcanvasExample');
+
+    offcanvasLinks.forEach(function(link) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault(); // Evita que el navegador siga el enlace de ancla
+            var target = document.querySelector(this.getAttribute('href')); // Selecciona la sección
+            var offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvas);
+            offcanvasInstance.hide();
+
+            // Retrasar el scroll hasta que se cierre el offcanvas
+            setTimeout(function() {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }, 300); // Ajusta el tiempo de espera según el tiempo de cierre del offcanvas
+        });
+    });
+});
