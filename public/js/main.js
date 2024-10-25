@@ -104,25 +104,5 @@ document.getElementById('curriculo').addEventListener('change', function () {
     document.getElementById('fileName').textContent = fileName;
 });
 
-// MENU DESPLEGABLE MOBILE
 
-document.addEventListener("DOMContentLoaded", function() {
-    var offcanvasLinks = document.querySelectorAll('.offcanvas-body a');
-    var offcanvas = document.getElementById('offcanvasExample');
 
-    offcanvasLinks.forEach(function(link) {
-        link.addEventListener('click', function(e) {
-            e.preventDefault(); // Evita que el navegador siga el enlace de ancla
-            var target = document.querySelector(this.getAttribute('href')); // Selecciona la sección
-            var offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvas);
-            offcanvasInstance.hide();
-
-            // Retrasar el scroll hasta que se cierre el offcanvas
-            setTimeout(function() {
-                target.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }, 300); // Ajusta el tiempo de espera según el tiempo de cierre del offcanvas
-        });
-    });
-});

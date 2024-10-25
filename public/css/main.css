@@ -907,27 +907,35 @@ h1 {
 }
 
 .icon-connection12 {
-    width: 80% !important;
+    width: 90% !important;
     /* Ajusta el tamaño de la imagen */
-    height: 200px !important;
-    margin-bottom: 0px;
+    height: 170px !important;
+    margin-bottom: 0px !important;
     /* Espacio entre la imagen y el nodo */
-    margin-left: 50% !important;
-    margin-top: 25% !important;
+    margin-left: 20% !important;
+    margin-top: 35% !important;
+}
+
+.icon-connection35 {
+    width: 60% !important;
+    position: absolute !important;
+    top: 300px !important; /* Ajusta esto según la posición */
+    left: 150px !important; /* Ajusta la posición horizontal */
+    z-index: 1 !important; /* Asegura que esté por encima */
 }
 
 .icon-connection23 {
     width: 80% !important;
     /* Ajusta el tamaño de la imagen */
-    height: 210px !important;
+    height: 150px !important;
     margin-bottom: 0px;
     /* Espacio entre la imagen y el nodo */
-    margin-left: 50% !important;
+    margin-left: 32% !important;
     margin-bottom: 40% !important;
 }
 
 .icon-connection34 {
-    width: 80% !important;
+    width: 85% !important;
     /* Ajusta el tamaño de la imagen */
     height: 165px !important;
     margin-bottom: 0px;
@@ -937,7 +945,7 @@ h1 {
 }
 
 .icon-connection36 {
-    width: 80% !important;
+    width: 85% !important;
     /* Ajusta el tamaño de la imagen */
     height: 165px !important;
     margin-bottom: 0px;
@@ -1407,6 +1415,10 @@ h1 {
 
 #formCV{
     padding-top: 2% !important;
+}
+
+.offcanvas-link {
+    color: var(--color2) !important;
 }
 
 .custom-input-form {

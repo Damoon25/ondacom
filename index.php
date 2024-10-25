@@ -156,6 +156,8 @@
                             <!-- Nodo 3 -->
                             <div id="node3" class="d-flex justify-content-center align-items-center position-relative m-0"></div>
 
+                            <!-- <img src="./public/img/icons/conexion-35.png" alt="" class="icon-connection35 d-none d-xl-block" /> -->
+
                             <div class="position-relative">
                                 <img src="./public/img/icons/conexion-36.png" alt="" class="icon-connection36 d-none d-xl-block" />
                             </div>
@@ -537,6 +539,35 @@
     <footer>
         <?php include("template/footer.php") ?>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var offcanvasLinks = document.querySelectorAll('.offcanvas-body a');
+            var offcanvas = document.getElementById('offcanvasExample');
+
+            offcanvasLinks.forEach(function(link) {
+                link.addEventListener('click', function(event) {
+                    var href = this.getAttribute('href');
+                    var isInternal = href.startsWith('#');
+
+                    var offcanvasInstance = bootstrap.Offcanvas.getInstance(offcanvas);
+                    offcanvasInstance.hide(); // Cierra el offcanvas
+
+                    if (!isInternal) {
+                        // Redirige para enlaces externos o a otras páginas
+                        window.location.href = href;
+                    } else {
+                        // Si es un enlace interno, espera que se cierre el offcanvas antes de hacer scroll
+                        event.preventDefault();
+                        setTimeout(function() {
+                            document.querySelector(href).scrollIntoView({
+                                behavior: 'smooth'
+                            });
+                        }, 300); // Ajusta el tiempo de espera si es necesario
+                    }
+                });
+            });
+        });
+    </script>
     <!-- FW PARA CAROUSEL -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!-- FW PARA DIAGRAMA -->
