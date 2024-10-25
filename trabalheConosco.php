@@ -30,7 +30,7 @@
                 <div class="py-5">
                     <div class="row justify-content-center">
                         <div class="col-md-7">
-                            <form class="text-start" action="enviar.php" method="post">
+                            <form class="text-start" action="enviarCV.php" method="post">
                                 <div class="mb-3">
                                     <label for="nome" class="form-label" style="color: var(--color1) !important;">Nome</label>
                                     <input type="text" class="form-control custom-input-form rounded-pill" id="nombre" name="nombre">

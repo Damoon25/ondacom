@@ -1,6 +1,4 @@
 notas para la web:
 
-INPUT PDF: tuve que modificar el diseño por temas de objeto sensible en la web.
-
 MOBILE: tuve que modificar el diagrama y el mapa para mejorar la experiencia mobile.
 
